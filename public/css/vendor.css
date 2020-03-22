@@ -1,0 +1,26 @@
+body
+{
+    background-color: rgb(23, 22, 29);
+    color:#fff;
+    text-align: center;
+}
+.container
+{
+    margin-top: 20vh;
+}
+.btn
+{
+    background-color: transparent;
+    color:#fff;
+    border: 1px solid rgb(55, 53, 61);
+    height:40px;
+    width:100px;
+    border-radius: 10px;
+    transition: all .4s ease;
+-webkit-transition: all .4s ease;
+}
+.btn:hover{
+    background-color: rgb(163, 141, 221);
+    color:black;
+    box-shadow: 2px 2px 15px rgb(163, 141, 221);
+}
